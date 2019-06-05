@@ -28,7 +28,7 @@ packages:
       name: async
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.1.0"
+    version: "2.2.0"
   bazel_worker:
     dependency: transitive
     description:
@@ -84,7 +84,7 @@ packages:
       name: build_runner_core
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.0.5"
+    version: "3.0.6"
   build_web_compilers:
     dependency: "direct dev"
     description:
@@ -284,7 +284,7 @@ packages:
       name: meta
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.1.6"
+    version: "1.1.7"
   mime:
     dependency: transitive
     description:
@@ -319,7 +319,7 @@ packages:
       name: pedantic
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.5.0"
+    version: "1.7.0"
   pool:
     dependency: transitive
     description:
@@ -354,7 +354,7 @@ packages:
       name: quiver
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.2"
+    version: "2.0.3"
   scratch_space:
     dependency: transitive
     description:

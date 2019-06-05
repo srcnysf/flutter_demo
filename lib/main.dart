@@ -5,7 +5,11 @@ import 'dart:convert';
 import 'user.dart';
 
 void main() {
-  runApp(new MaterialApp(home: new HomePage()));
+  runApp(new MaterialApp(
+    title: 'UserList Flutter',
+    home: new HomePage(),
+    debugShowCheckedModeBanner: false,
+    ));
 }
 class HomePage extends StatefulWidget {
   @override
@@ -22,7 +26,6 @@ class HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return new MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'UserList Flutter',
       home: new Scaffold(
         // drawer: new Drawer(
         //   child: Padding(
@@ -44,6 +47,7 @@ class HomePageState extends State<HomePage> {
         // ),
         appBar: new AppBar(
           title: new Text('UserList Flutter'),
+
           actions: <Widget>[
             new IconButton(icon: const Icon(Icons.list), onPressed: _pushSaved),
           ],

@@ -2,13 +2,13 @@ import 'dart:async';
 import 'package:flutter_web/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
+import 'main_screen.dart';
 import 'user.dart';
 
 void main() {
   runApp(new MaterialApp(
     title: 'UserList Flutter',
-    home: new HomePage(),
-    debugShowCheckedModeBanner: false,
+    home: new MainScreen(),
     ));
 }
 class HomePage extends StatefulWidget {
@@ -25,7 +25,7 @@ class HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: true,
       home: new Scaffold(
         // drawer: new Drawer(
         //   child: Padding(

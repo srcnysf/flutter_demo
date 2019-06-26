@@ -24,11 +24,9 @@ class SlideItem extends StatefulWidget {
 class _SlideItemState extends State<SlideItem> {
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: EdgeInsets.only(top: 5.0, bottom: 5.0),
-      child: Container(
+    var container = Container(
         height: MediaQuery.of(context).size.height / 2.9,
-        width: MediaQuery.of(context).size.width / 1.2,
+        width: MediaQuery.of(context).size.width / 5.2,
         child: Card(
           shape: RoundedRectangleBorder( borderRadius: BorderRadius.circular(10.0)),
           elevation: 3.0,
@@ -139,7 +137,10 @@ class _SlideItemState extends State<SlideItem> {
             ],
           ),
         ),
-      ),
+      );
+    return Padding(
+      padding: EdgeInsets.only(top: 5.0, bottom: 5.0),
+      child: container,
     );
   }
 }

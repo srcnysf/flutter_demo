@@ -19,7 +19,7 @@ class _HomeState extends State<Home> with AutomaticKeepAliveClientMixin<Home>{
     return Scaffold(
       appBar: PreferredSize(
         child: Padding(
-          padding: EdgeInsets.only(top: 30.0, left: 10.0, right: 10.0),
+          padding: EdgeInsets.only(top: 10.0, left: 10.0, right: 10.0),
           child: Card(
             elevation: 6.0,
             child: Container(

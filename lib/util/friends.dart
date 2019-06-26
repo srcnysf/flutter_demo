@@ -1,11 +1,11 @@
 List friends = [
-  "web/assets/cm1.jpeg",
-  "web/assets/cm2.jpeg",
-  "web/assets/cm3.jpeg",
-  "web/assets/cm4.jpeg",
-  "web/assets/cm1.jpeg",
-  "web/assets/cm2.jpeg",
-  "web/assets/cm3.jpeg",
-  "web/assets/cm4.jpeg",
-  "web/assets/cm1.jpeg"
+  "cm1.jpeg",
+  "cm2.jpeg",
+  "cm3.jpeg",
+  "cm4.jpeg",
+  "cm1.jpeg",
+  "cm2.jpeg",
+  "cm3.jpeg",
+  "cm4.jpeg",
+  "cm1.jpeg"
 ];

@@ -1,7 +1,5 @@
-import 'dart:io';
 
 import 'package:flutter_web/material.dart';
-import 'package:flutter_demo/util/const.dart';
 import 'package:flutter_demo/util/restaurants.dart';
 import 'package:flutter_demo/widgets/trending_item.dart';
 
